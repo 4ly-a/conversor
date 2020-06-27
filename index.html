@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor</title>
+  </head>
+  <body>
+    <h1>Conversor</h1>
+    <div id="aa">
+      <input type="text" name="pol" id="pol" />
+      <div id="cm">0 Cm</div>
+      <button onclick="converter()">Converter</button>
+    </div>
+    <h4>Criado por eu numa noite de sábado no meu quarto &hearts; </h3>
+    <script type="text/javascript">
+      function converter() {
+        const pol = document.getElementById("pol").value;
+        const cm = document.getElementById("cm");
+        cm.innerHTML = pol * 2.54 + " Cm";
+      }
+    </script>
+  </body>
+</html>
+
+

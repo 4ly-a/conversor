@@ -1,0 +1,41 @@
+body{
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    color: #000;
+    overflow: hidden;
+    outline: none;
+    font-size: 20pt;
+    margin: 10px;
+}
+
+button{
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 20px;
+    border: none;
+    background: #000;
+    color: #fff;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    filter: invert(1);
+    border: 1px solid white;
+    transform: scale(1.2);
+}
+
+
+h4{
+    position: absolute;
+    bottom: 0;
+}
